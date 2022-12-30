@@ -13,7 +13,7 @@ apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 sudo systemctl status docker
 ```
-## Run the container with your ERC 20 address below is an example ( 0x69b9b1D16feD43... replace with your ERC 20) 
+## Run the container with YOUR ERC 20 address below is an example ( 0x69b9b1D16feD43... replace with your ERC 20) 
 ```
 docker run -d --restart unless-stopped --pull always --name exorde-cli exordelabs/exorde-cli -m 0x69b9b1D16feD43Dc89188441030DcD6a70Cd8642 -l 2
 ```
