@@ -19,3 +19,16 @@ docker run -d --restart unless-stopped --pull always --name exorde-cli exordelab
 ```
 #### After a while, your EPC 20 should appear in the checker for up to 24 hours.
 #### Link to the check: https://explorer.exorde.network/leaderboard
+## Node check commands 
+#### Check if your containers are working 
+```
+docker ps -a
+```
+#### Restart node
+```
+docker restart exorde-cli
+```
+####  Checking Logs
+```
+docker logs --follow  exorde-cli
+```
