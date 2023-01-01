@@ -28,7 +28,7 @@ docker ps -a
 ```
 docker restart exorde-cli
 ```
-####  Checking Logs
+####  Checking Logs.
 ```
 docker logs --follow  exorde-cli
 ```
