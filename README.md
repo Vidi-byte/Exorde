@@ -32,3 +32,6 @@ docker restart exorde-cli
 ```
 docker logs --follow  exorde-cli
 ```
+#### The official website of the project read a lot of useful is : https://taiko.xyz/docs/alpha-1-testnet/start-here
+#### Request ETH from Ethereum A1: https://l1faucet.a1.taiko.xyz/.
+#### Request ETH from Taiko A1: https://l2faucet.a1.taiko.xyz/.
